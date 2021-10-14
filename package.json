@@ -1,0 +1,25 @@
+{
+  "name": "airport-domain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:report": "jest --coverage=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeFeeZilla/airport-domain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeFeeZilla/airport-domain/issues"
+  },
+  "homepage": "https://github.com/CodeFeeZilla/airport-domain#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "jest": "^27.2.5"
+  }
+}
