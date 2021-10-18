@@ -1,4 +1,3 @@
-const { TestWatcher } = require("@jest/core");
 const Passenger = require("./Passenger");
 
 describe("Passenger Class Unit Test", () => {
