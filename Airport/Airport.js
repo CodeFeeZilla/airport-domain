@@ -21,10 +21,6 @@ class Airport {
     this.planes.push(plane);
   }
 
-  static getAllNames() {
-    return this.airports;
-  }
-
   depart(plane) {
     this.planes = this.planes.splice(this.planes.indexOf(plane));
   }
