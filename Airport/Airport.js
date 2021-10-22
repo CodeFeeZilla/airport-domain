@@ -5,7 +5,6 @@ class Airport {
     this.name = name;
     this.planes = [];
 
-    this.constructor.airports.push(this);
     // if (!this.name) throw new Error("airport must have a name");
     // if (typeof this.name !== "string")
     //   throw new Error("airport name must be a string");
@@ -14,10 +13,16 @@ class Airport {
       typeof this.name !== "string",
       "airport name must be a string"
     );
+
+    this.constructor.airports.push(this);
   }
 
   land(plane) {
     this.planes.push(plane);
+  }
+
+  static getAllNames() {
+    return this.airports;
   }
 
   depart(plane) {
